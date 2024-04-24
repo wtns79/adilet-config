@@ -1,0 +1,11 @@
+document:
+  name: api-gateway
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: document-service-route
+          uri: lb://document-service
+          predicates:
+            - Path=/api/documents/**

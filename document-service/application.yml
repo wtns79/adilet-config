@@ -1,1 +1,2 @@
-document.name: Test
+document:
+  name: Document Service
