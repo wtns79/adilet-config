@@ -9,9 +9,3 @@ spring:
           uri: lb://document-service
           predicates:
           - Path=/api/documents/**
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
