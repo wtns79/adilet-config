@@ -8,4 +8,8 @@ spring:
         - id: document-service-route
           uri: lb://document-service
           predicates:
-          - Path=/api/documents/**
+            - Path=/api/documents/**
+        - id: portal-service-route
+          uri: lb://portal-service
+          predicates:
+            - Path=/api/portal/**
