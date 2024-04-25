@@ -5,14 +5,14 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: document-service-route
-          uri: lb://document-service
-          predicates:
-            - Path=/api/documents/**
-        - id: auth-service-route
-          uri: lb://auth-service
-          predicates:
-            - Path=/api/auth/**
+#        - id: document-service-route
+#          uri: lb://document-service
+#          predicates:
+#            - Path=/api/documents/**
+#        - id: auth-service-route
+#          uri: lb://auth-service
+#          predicates:
+#            - Path=/api/auth/**
         - id: portal-service-route
           uri: lb://portal-service
           predicates:
