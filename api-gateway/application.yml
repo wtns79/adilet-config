@@ -5,7 +5,7 @@ spring:
   cloud:
     gateway:
       routes:
-#        - id: document-service-route
+#        - id: document-service-route #убрал, что бы публичным не делать
 #          uri: lb://document-service
 #          predicates:
 #            - Path=/api/documents/**
@@ -16,4 +16,4 @@ spring:
         - id: portal-service-route
           uri: lb://portal-service
           predicates:
-            - Path=/api/portal/**
+            - Path=/web/portal/**
