@@ -16,4 +16,4 @@ spring:
         - id: portal-service-route
           uri: lb://portal-service
           predicates:
-            - Path=/web/portal/**
+            - Path=/api/v1/portal/**
