@@ -1,5 +1,5 @@
 document:
-  name: api-gateway
+  name: adilet_gateway
 
 spring:
   cloud:

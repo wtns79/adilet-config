@@ -2,10 +2,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>kz.wtns</groupId>
-	<artifactId>adilet-config</artifactId>
+	<groupId>kz.wtns.adilet</groupId>
+	<artifactId>adilet_config_git</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>adilet-config</name>
+	<name>adilet_config_git</name>
 	<description>App config</description>
 	<dependencies>
 	</dependencies>

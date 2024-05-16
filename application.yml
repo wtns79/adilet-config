@@ -19,3 +19,15 @@ spring:
       ConnectTimeout: 5000
       MaxAutoRetries: 0
       MaxAutoRetriesNextServer: 1
+
+---
+#eureka-server:8761
+#config-server:8888
+
+#api-gateway:8081
+#auth-service:8084
+#document-service:8082
+#portal-service:8083
+#stat-service:8085
+#solr-service:8086
+#:808
